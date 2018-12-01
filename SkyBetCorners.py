@@ -12,7 +12,7 @@ from datetime import datetime
 import math
 import re
 import csv
-
+import os
 
 def mappingGet() :
     with open('mappingSkyTotalCorner.csv', 'r') as fileread :
@@ -160,14 +160,18 @@ def saveResults(summary, title) :
     datetime_object = datetime.strptime('{:02} {} {}'.format(day,month,year), '%d %B %Y')
     filename = datetime_object.strftime("%Y%m%d")
     
-    output = []
+    output = [['goodBet', 'betStrength', 'oddsCalculated', 'oddsSkyBet', 'time', 'title']]
     for match in summary :
         output.append([match['goodBet'], match['betStrength'], match['oddsCalculated'], match['oddsSkyBet'], match['time'], match['title']])
     
-    with open("records/{}.csv".format(filename), "w", newline='') as filewrite :
-        writer = csv.writer(filewrite)
-        writer.writerows(output)
-        filewrite.close()
+    filepath = "records/{}.csv".format(filename)
+    if not os.path.isfile(filepath) :
+        with open(filepath, "w", newline='') as filewrite :
+            writer = csv.writer(filewrite)
+            writer.writerows(output)
+            filewrite.close()
+    else :
+        print('\nOutput file already exists.')
         
 def unique(list1): 
     unique_list = [] 
@@ -181,7 +185,7 @@ pageURL = "https://m.skybet.com/football/coupon/10011490"
 
 totalcornerBaseURL = "https://www.totalcorner.com/team/view/"
 
-accordionNumbersAccepted = [1]
+accordionNumbersAccepted = [0]
 
 # Opening connection, grabbing the page
 req = Request(pageURL, headers = headers);
