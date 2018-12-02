@@ -185,7 +185,7 @@ pageURL = "https://m.skybet.com/football/coupon/10011490"
 
 totalcornerBaseURL = "https://www.totalcorner.com/team/view/"
 
-accordionNumbersAccepted = [0]
+accordionNumbersAccepted = [1]
 
 # Opening connection, grabbing the page
 req = Request(pageURL, headers = headers);
@@ -237,6 +237,7 @@ for accordionNumber in range(0,len(accordions)) :
     # Loop through the table rows
     time = '00:00'
     times = []
+    strengths = []
     for tr in tablerows :
         if (tr.td.attrs['class'][0] == 'group-header') :
             headerText = tr.td.contents[0]
@@ -271,6 +272,8 @@ for accordionNumber in range(0,len(accordions)) :
         goodBet = oddsMean < odds
         betStrength = odds/oddsMean
         
+        strengths.append(betStrength)
+        
         matchSummary = {
                 'title': '{} vs {}'.format(competitor1, competitor2),
                 'oddsCalculated' : oddsMean,
@@ -295,10 +298,12 @@ for accordionNumber in range(0,len(accordions)) :
     print('')
     print('Chronological Summary')
     timesUniqueSorted = unique(sorted(times))
+    strengthsUniqueSorted = unique(sorted(strengths, reverse=True))
     for time in timesUniqueSorted :
-        for match in summary :
-            if match['goodBet'] and match['time'] == time :
-                print(' {:>1} | Strength: {:>4.3f} | Calc: {:.3f} | SkyBet: {:.2f} | {} | {}'.format(match['goodBet'], match['betStrength'], match['oddsCalculated'], match['oddsSkyBet'], match['time'], match['title']))
+        for strength in strengthsUniqueSorted :
+            for match in summary :
+                if match['goodBet'] and match['time'] == time and match['betStrength'] == strength :
+                    print(' {:>1} | Strength: {:>4.3f} | Calc: {:.3f} | SkyBet: {:.2f} | {} | {}'.format(match['goodBet'], match['betStrength'], match['oddsCalculated'], match['oddsSkyBet'], match['time'], match['title']))
     
     # Save results
     saveResults(summary, title)
