@@ -1,10 +1,14 @@
 1. FC Heidenheim,291
 1. FC Nürnberg,301
+AC Ajaccio,369
 AC Horsens,903
 AC Milan,209
 ADO Den Haag,457
+AFC Wimbledon,111
+AS Beziers,14522
 AZ Alkmaar,453
 Aberdeen,2383
+Accrington,114
 Ajax,461
 Akhisar Belediyespor,635
 Albacete Balompié,253
@@ -18,6 +22,7 @@ Antwerp,1159
 Argentinos Juniors,1438
 Arsenal,6
 Arsenal Tula,585
+Arsenal U21,2723
 Atalanta,197
 Athletic Bilbao,128
 Atletico Madrid,241
@@ -31,6 +36,7 @@ Banfield,1270
 Barcelona,235
 Barcelona SC,834
 Barnet,84
+Barnsley,30
 Bayer Leverkusen,125
 Besiktas,127
 Betis,250
@@ -40,28 +46,43 @@ Bologna,228
 Bordeaux,343
 Borussia Monchengladbach,158
 Botafogo RJ,1497
+Bournemouth,36
 Brentford,64
+Brest,358
+Brighton,47
 Bristol City,34
+Bristol Rovers,75
 Brøndby IF,708
+Burnley,3
 Bursaspor,639
 Bury,113
+CA Huracán,1443
 CD Aves,19314
 CD Numancia,251
 CSKA Moscow,582
 Caen,349
 Cagliari,200
+Cambridge,103
+Cardiff,56
 Cashpoint SCR Altach,383
 Ceará SC,798
 Celtic,1371
+Chamois Niortais,376
 Chapecoense,1273
+Chateauroux,360
 Chelsea,16
+Chelsea U21,6449
+Cheltenham,109
 Chesterfield,68
 Chievo,207
+Clermont,377
 Club Brugge,168
 Club Deportivo Técnico Universitario,5692
 Corinthians,804
 Cruzeiro,801
+Crystal Palace,8
 De Graafschap,1191
+Defensa y Justicia,790
 Delfin SC,5709
 Deportivo,233
 Deportivo Alaves,262
@@ -69,12 +90,14 @@ Deportivo Cuenca,2768
 Deportivo Macara,6132
 Dijon FCO,365
 Dinamo Zagreb,138
+Dundee,2380
 Eintracht Frankfurt,183
 El Nacional,2775
 Emelec,2769
 Erzurum BB,6220
 Estudiantes,791
 Everton,15
+Exeter,100
 FC Basel,626
 FC Copenhagen,126
 FC Luzern,627
@@ -94,6 +117,7 @@ Frosinone,225
 Fulham,54
 GD Chaves,611
 Galatasaray,640
+Gazelec Ajaccio,370
 Genk,402
 Genoa,196
 Gillingham,61
@@ -102,6 +126,7 @@ Gimnastic,3285
 Girona,255
 Godoy Cruz,796
 Grasshoppers Zurich,169
+Grenoble Foot 38,8208
 Grimsby,82
 Groningen,460
 Grêmio FBPA,805
@@ -109,59 +134,91 @@ Guayaquil City FC,41539
 Guingamp,355
 Guiseley,1321
 HNK Gorica,2874
+Hamilton,2376
+Harrogate Town,1317
 Hearts,2453
 Heerenveen,449
 Heracles Almelo,455
+Hibernian,2459
 Hobro IK,714
 Holstein Kiel,1132
+Huddersfield,40
 Independiente,1564
 Independiente del Valle,815
 Inter,178
 KAS Eupen,1173
 KV Kortrijk,407
 Kasimpasa SK,643
+Kilmarnock,2373
 Krasnodar,140
 LDU Quito,966
 Lanus,1267
 Las Palmas,249
 Lazio,210
+Le Havre AC,374
+Leicester,5
+Lens,345
 Levante,238
+Lille,339
+Lincoln,93
 Liverpool,2
+Livingston,1696
 Lokomotiv Moscow,142
+Lommel United,1162
 Lugano,1222
 Lugo,258
 Luton Town,102
+Lyon,147
 MFK Ružomberok,3465
 MSV Duisburg,318
+Macclesfield,97
+Man City U21,5104
+Manchester City,9
 Manchester Utd,4
+Mansfield,108
 Marseille,340
 Melbourne City,4193
+Metz,342
 Millwall,23
 Monaco,338
 Montpellier,348
+Motherwell,2378
 NAC Breda,451
 Nacional da Madeira,166
+Nancy,359
+Nantes,47
 Napoli,129
 Neuchatel Xamax,5263
+Newcastle,7
 Newcastle Jets,4194
+Newcastle U21,3552
 Newport County,107
 Nice,341
 Nordsjaelland,707
+Northampton,99
+Notts County,33
 Nîmes Olympique,372
+Oldham,66
 Oostende,401
+Orleans,361
 Osasuna,265
+Oud-Heverlee Leuven,1172
 PSV Eindhoven,187
 Palmeiras,807
 Paraná Clube,1095
+Paris FC,1151
 Paris St Germain,353
 Parma,204
 Perth Glory,4192
+Peterborough,55
+Port Vale,67
 Portimonense,2051
 Porto,555
 Portsmouth,70
 RB Leipzig,297
 RC Strasbourg,1140
 RZ Pellets WAC,386
+Racing Club,1565
 Randers FC,711
 Rangers,2455
 Rapid Vienna,132
@@ -169,6 +226,7 @@ Rayo Majadahonda,3272
 Real Madrid,247
 Real Oviedo CF,4037
 Real Sociedad,141
+Red Star,1156
 Rennes,350
 Rio Ave,176
 River Plate,789
@@ -194,19 +252,29 @@ Shrewsbury,101
 Sint-Truidense VV,1167
 Sion,630
 Slough,4733
+Sochaux-Montbéliard,364
+Solihull,14020
 Southampton,20
+Southend,106
 Southport,83
 Spartak Moscow,590
 Spartak Trnava,149
 Sport Club do Recife,962
 Sporting CP,558
+St Etienne,152
 St Gallen,625
+St Johnstone,2379
+St Mirren,2374
 Stade Reims,346
 Standard,398
 Stockport County,1325
+Stoke U21,6753
 Sturm Graz,380
+Sunderland,18
+Swansea U21,8421
 Swindon,25
 Sønderjyske,710
+Talleres,1589
 Thun,629
 Tigre,1271
 Tondela,5986
@@ -214,11 +282,13 @@ Torino,164
 Tottenham,1
 Toulouse,351
 Tranmere,115
+Troyes,371
 Udinese,194
 Universidad Católica del Ecuador,2774
 Unión de Santa Fe,2760
 VVV Venlo,1182
 Valencia,243
+Valenciennes FC,363
 Vasco da Gama,1127
 Velez Sarsfield BA,1266
 VfL Bochum,295
@@ -226,11 +296,15 @@ Villarreal,134
 Vitoria BA,963
 Vitoria de Guimaraes,562
 Waasland-Beveren,408
+Walsall,42
+Watford,39
 Wellington Phoenix,4191
 West Brom,14
+West Ham,19
 Willem II,459
 Woking,96
 Wolfsburg,282
+Wolves,58
 Wrexham,95
 Yeni Malatyaspor,5883
 Zenit St Petersburg,591

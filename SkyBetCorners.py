@@ -58,7 +58,7 @@ def TC_getCornerData(url) :
     req = Request(url, headers = headers);
     TC_page = urlopen(req);
     TC_page_html = TC_page.read();
-    TC_page.close();        
+    TC_page.close();
     TC_page_soup = soup(TC_page_html, "html.parser");
     
     titleDiv = TC_page_soup.findAll("div", {"id":"team_view_title"})
