@@ -185,7 +185,7 @@ pageURL = "https://m.skybet.com/football/coupon/10011490"
 
 totalcornerBaseURL = "https://www.totalcorner.com/team/view/"
 
-accordionNumbersAccepted = [1]
+accordionNumbersAccepted = [0]
 
 # Opening connection, grabbing the page
 req = Request(pageURL, headers = headers);
