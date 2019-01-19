@@ -64,7 +64,7 @@ def TC_getCornerData(url) :
     titleDiv = TC_page_soup.findAll("div", {"id":"team_view_title"})
     titleText = titleDiv[0].div.h4.contents[0]
     
-    regexMatch = re.compile('([\S\s]+) - ([\S\s]+)').match(titleText)
+    regexMatch = re.compile('\s*([\S\s]+)\s*-\s*([\S\s]+)\s*').match(titleText)
     competitorName = regexMatch.group(1)
     
     table = TC_page_soup.findAll("table", {"id":"inplay_match_table"})[0]
